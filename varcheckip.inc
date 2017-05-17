@@ -8,8 +8,8 @@ public CheckPlayerIp(playerid)
 	
 	if(rows)
 	{
-		new last_connect;
-		cache_get_value_name_int(0, "last_connect", last_connect);
+		new l_connect;
+		cache_get_value_name_int(0, "l_connect", l_connect);
 		
 		if(gettime() - last_connect < 60)
 		{
