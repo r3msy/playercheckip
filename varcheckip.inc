@@ -13,7 +13,7 @@ public CheckPlayerIp(playerid)
 		
 		if(gettime() - last_connect < 60)
 		{
-			return Kick(playerid, "Переподключаться к серверу можно раз в 60 секунд!", "\n\n", COLOR_NOTE"Чтобы выйти из игры используйте команду /q(uit)");
+			return Kick(playerid, "Переподключаться к серверу можно раз в 60 секунд!", "\n\n\Чтобы выйти из игры, используйте команду /q(uit)");
 		}
 	}
   return 1;
